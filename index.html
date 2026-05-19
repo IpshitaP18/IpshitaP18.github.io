@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title> Ipshita Porov — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=DM+Sans:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Doodle background SVGs -->
+<svg class="doodle doodle-star" viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+<svg class="doodle doodle-squiggle" viewBox="0 0 120 20"><path d="M2 10 Q 15 0 30 10 T 60 10 T 90 10 T 118 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+<svg class="doodle doodle-circle" viewBox="0 0 60 60"><circle cx="30" cy="30" r="25" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 6"/></svg>
+<svg class="doodle doodle-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="#home" class="logo">
+    <span class="logo-mark">✦</span> Ipshita Porov
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <!-- <li><a href="#internships">Internships</a></li> -->
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO / ABOUT -->
+<header id="home" class="hero">
+  <div class="hero-text">
+    <p class="hello"><i class="fa-solid fa-hand-sparkles"></i> Hello, world — I'm</p>
+    <h1><span class="word-1">Ipshita</span> <span class="word-2">Porov</span></h1>
+    <h2 class="role">AI/ML Engineering Student <span class="ai-badge"><i class="fa-solid fa-robot"></i> AI Enthusiast</span></h2>
+    <p class="tagline">I am a passionate AI/ML engineering student with a keen interest in developing intelligent systems and solving complex problems.</p>
+    <div class="hero-info">
+      <span><i class="fa-solid fa-location-dot"></i> Ghaziabad, Uttar Pradesh</span>
+      <span><i class="fa-solid fa-graduation-cap"></i> BVCOE, New Delhi</span>
+      <span><i class="fa-solid fa-envelope"></i> ipshitaporov@gmail.com</span>
+    </div>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">See my work <i class="fa-solid fa-arrow-right"></i></a>
+      <!-- <a href="#" class="btn btn-ghost"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a> -->
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="avatar-frame">
+      <img src="profile.png" alt="Ipshita Porov" class="hero-photo" />
+    </div>
+    <svg class="float-doodle f1" viewBox="0 0 40 40"><path d="M5 20 Q20 -5 35 20 Q20 45 5 20Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    <svg class="float-doodle f2" viewBox="0 0 40 40"><path d="M20 5v30M5 20h30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </div>
+</header>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section">
+  <h2 class="section-title">About Me <i class="fa-solid fa-sparkles"></i></h2>
+  <div class="about-grid">
+    <div class="card sketchy">
+      <h3><i class="fa-solid fa-user"></i> Who I Am</h3>
+      <p>I am a 3rd year Computer Science student at BVCOE, New Delhi, with a strong passion for AI/ML and software development.</p>
+    </div>
+    <div class="card sketchy">
+      <h3><i class="fa-solid fa-lightbulb"></i> What I Do</h3>
+      <p>I specialize in developing intelligent systems and solving complex problems using AI and ML techniques.</p>
+    </div>
+    <div class="card sketchy">
+      <h3><i class="fa-solid fa-heart"></i> Interests</h3>
+      <p>I enjoy exploring new technologies, contributing to open-source projects, and staying updated with the latest advancements in AI and software engineering.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section alt-bg">
+  <h2 class="section-title">Certifications <i class="fa-solid fa-certificate"></i></h2>
+  <div class="cert-grid">
+    <!-- <div class="cert-card sketchy">
+      <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+      <h3>[Certification Name]</h3>
+      <p class="muted">[Issuing Organization] · [Year]</p>
+      <a href="#" class="link-arrow">View credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div> -->
+    <div class="cert-card sketchy">
+      <div class="cert-icon"><i class="fa-solid fa-medal"></i></div>
+      <h3>Getting started with Generative AI</h3>
+      <p class="muted">IBM · 2026</p>
+      <a href="https://drive.google.com/file/d/1CryDJZDEKD1UcALie9t1mlpCQfiGkQ0Q/view?usp=sharing" class="link-arrow">View credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    <!-- <div class="cert-card sketchy">
+      <div class="cert-icon"><i class="fa-solid fa-trophy"></i></div>
+      <h3>[Certification Name]</h3>
+      <p class="muted">[Issuing Organization] · [Year]</p>
+      <a href="#" class="link-arrow">View credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div> -->
+    <div class="cert-card sketchy">
+      <div class="cert-icon"><i class="fa-solid fa-ribbon"></i></div>
+      <h3>SQL and Relational Databases</h3>
+      <p class="muted">IBM · 2026</p>
+      <a href="https://courses.cognitiveclass.ai/certificates/c5780cdc3f924d77b5f901985b8f51e6" class="link-arrow">View credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 class="section-title">Projects <i class="fa-solid fa-rocket"></i></h2>
+  <p class="section-sub">A few things I've built, broken, and rebuilt.</p>
+  <div class="projects-grid">
+
+    <article class="project-card sketchy">
+      <div class="image-placeholder project-image">
+        <i class="fa-regular fa-image"></i>
+        <img src="https://github.com/IpshitaP18/StackedThoughts-BootStrapDesign/raw/main/ss1.png"  alt="StackedThoughts project screenshot" class="project-screenshot" />
+      </div>
+      <div class="project-body">
+        <h3>StackedThoughts</h3>
+        <p>A bootstrap based simple responsive blogging page.</p>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">Bootstrap</span><span class="tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/IpshitaP18/StackedThoughts-BootStrapDesign"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://archiep27.github.io/StackedThoughts-BootStrapDesign/"><i class="fa-solid fa-up-right-from-square"></i> Live</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card sketchy">
+      <div class="image-placeholder project-image">
+        <i class="fa-regular fa-image"></i>
+        <img src="https://github.com/IpshitaP18/railway-guardian/raw/main/ss.png" alt="Railway Guardian project screenshot" class="project-screenshot" />
+      </div>
+      <div class="project-body">
+        <h3>Railway Guardian</h3>
+        <p>A web application designed to monitor and alert users about potential safety hazards on railway tracks.</p>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">React</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/IpshitaP18/railway-guardian"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://railway-guardian.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i> Live</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card sketchy">
+      <div class="image-placeholder project-image">
+        <i class="fa-regular fa-image"></i>
+        <img src="https://github.com/IpshitaP18/EmailSpam/raw/main/UI.png" alt="SpamGuard project screenshot" class="project-screenshot" />      </div>
+      <div class="project-body">
+        <h3>SpamGuard</h3>
+        <p>A machine learning-based email spam detection system that helps users identify and filter out unwanted emails.</p>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">NLP</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/IpshitaP18/EmailSpam"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://ipshitap18.github.io/EmailSpam/"><i class="fa-solid fa-up-right-from-square"></i> Live</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card sketchy">
+      <div class="image-placeholder project-image">
+        <img src="depthx.png" alt="DepthX project screenshot" class="project-screenshot" />
+      </div>
+      <div class="project-body">
+        <h3>DepthX</h3>
+        <p>DepthX is an educational web app used to identify the areas where student lack by giving short quiz and analysing the result and identify the areas which require improvement.</p>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/IpshitaP18/DepthX"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://ipshitap18.github.io/DepthX/"><i class="fa-solid fa-up-right-from-square"></i> Live</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- INTERNSHIPS / EXPERIENCE -->
+<!-- <section id="internships" class="section alt-bg-2">
+  <h2 class="section-title">Internships & Experience <i class="fa-solid fa-briefcase"></i></h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content sketchy">
+        <div class="timeline-head">
+          <h3>[Role / Position]</h3>
+          <span class="chip">[Start] – [End]</span>
+        </div>
+        <p class="muted"><i class="fa-solid fa-building"></i> [Company / Organization] · [Location / Remote]</p>
+        <ul>
+          <li>[Key responsibility or achievement #1]</li>
+          <li>[Key responsibility or achievement #2]</li>
+          <li>[Tech / tools used]</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content sketchy">
+        <div class="timeline-head">
+          <h3>[Role / Position]</h3>
+          <span class="chip">[Start] – [End]</span>
+        </div>
+        <p class="muted"><i class="fa-solid fa-building"></i> [Company / Organization] · [Location / Remote]</p>
+        <ul>
+          <li>[Key responsibility or achievement #1]</li>
+          <li>[Key responsibility or achievement #2]</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content sketchy">
+        <div class="timeline-head">
+          <h3>[Role / Position]</h3>
+          <span class="chip">[Start] – [End]</span>
+        </div>
+        <p class="muted"><i class="fa-solid fa-building"></i> [Company / Organization] · [Location / Remote]</p>
+        <ul>
+          <li>[Key responsibility or achievement #1]</li>
+          <li>[Key responsibility or achievement #2]</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section> -->
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="section-title">Skills & Tools <i class="fa-solid fa-toolbox"></i></h2>
+  <div class="skills-cloud">
+    <span class="skill-bubble"><i class="fa-brands fa-html5"></i> HTML</span>
+    <span class="skill-bubble"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+    <span class="skill-bubble"><i class="fa-brands fa-js"></i> JavaScript</span>
+    <span class="skill-bubble"><i class="fa-brands fa-java"></i> Java</span>
+    <span class="skill-bubble"><i class="fa-brands fa-cuttlefish"></i> C++</span>
+    <span class="skill-bubble"><i class="fa-brands fa-python"></i> Python</span>
+    <span class="skill-bubble"><i class="fa-brands fa-git-alt"></i> Git</span>
+    <span class="skill-bubble"><i class="fa-solid fa-database"></i> SQL</span>
+    <span class="skill-bubble"><i class="fa-solid fa-brain"></i> AI / ML</span>
+  </div>
+</section>
+
+<!-- EDUCATION / EXTRA -->
+<section id="education" class="section alt-bg-3">
+  <h2 class="section-title">Education & Extras <i class="fa-solid fa-graduation-cap"></i></h2>
+  <div class="about-grid">
+    <div class="card sketchy">
+      <h3><i class="fa-solid fa-school"></i> Education</h3>
+      <p><strong>B. Tech in CSE AI/ML</strong><br>BVP University<br><span class="muted">3rd Year · 9.62 CGPA</span></p>
+    </div>
+    <div class="card sketchy">
+      <h3><i class="fa-solid fa-people-group"></i> Activities</h3>
+      <p>Head, TechShuttle Chapter · Volunteer, Debug And Dare · Leader, ET GenAI Hackathon</p>
+    </div>
+    <div class="card sketchy">
+      <h3><i class="fa-solid fa-language"></i> Languages</h3>
+      <p>English · Hindi · French</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h2 class="section-title">Let's Connect <i class="fa-solid fa-paper-plane"></i></h2>
+  <p class="section-sub">Open to collaborations, internships, and a good chat over coffee.</p>
+
+  <div class="contact-wrap">
+    <div class="contact-info sketchy">
+      <p><i class="fa-solid fa-envelope"></i> ipshitaporov@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +91 9289917982</p>
+      <p><i class="fa-solid fa-location-dot"></i> New Delhi, India</p>
+      <div class="socials">
+        <a href="https://github.com/IpshitaP18" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ipshitaporov/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <form id="contactForm" class="contact-form sketchy">
+      <label>Your name
+        <input type="text" name="name" placeholder="Your name" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" placeholder="you@example.com" required>
+      </label>
+      <label>Message
+        <textarea name="message" rows="4" placeholder="Say hi..." required></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">Send <i class="fa-solid fa-paper-plane"></i></button>
+      <p id="contactStatus" class="contact-status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Made with <i class="fa-solid fa-heart" style="color:#ff5a7a"></i> · © <span id="year"></span> Ipshita Porov</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
